@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Popularbooks.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHomepage">
+        <div class="homebackground">
+            <h1 class="mainhead">Popular Book</h1>
+            <div class="wofcard">
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="wofimage" />
+                    <div class="woftextcont">
+                        <h1 class="wofhead">Wings of Fire</h1>
+                        <p class="wofpara1">An Autobiography of </br>Abdul Kalam</p>
+                        <p class="wofpara2">by Arun Tiwari</p>
+                        <button class="btn btn-primary" onclick="display('sectionAPJ')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <h1 class="subhead">Recommended Books</h1>
+            <div class="homecbcard">
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="homecbimage" />
+                    <div class="cbtextcont">
+                        <h1 class="homecbhead">The 3 mistakes of my life</h1>
+                        <p class="homecbpara1">Indian author <br /> by Chetan Bhagat</p>
+                        <button class="btn btn-primary" onclick="display('sectionChetan')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="homecbcard">
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="homecbimage" />
+                    <div class="cbtextcont">
+                        <h1 class="homecbhead">Harry Potter</h1>
+                        <p class="homecbpara1">and the Sorcerer's Stone <br /> by J.K.Rowling</p>
+                        <button class="btn btn-primary" onclick="display('sectionHarry')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAPJ">
+        <div class="indbackground">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="subwofimage" />
+            <h1 class="mainhead">Wings of Fire</h1>
+            <p class="subwofpara2">by Arun Tiwari</p>
+            <p class="subwofpara1">Every common man who by his sheer girt and hard work
+                achieves sucess should share his story with the rest for
+                they may find inspiration and strength to go on, in his
+                story. The 'Wings of Fire' is one such autobiography by
+                visionary scientist Dr.APJ Abdul Kalam, who from very
+                humble begining rose to be the President of India. The
+                book is full of insight, personal moments and life experiences
+                of Dr. Kalam. It gives us an understanding on his journey of sucess.</p>
+            <button class="backbutton" onclick="display('sectionHomepage')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionChetan">
+        <div class="indbackground">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="subwofimage" />
+            <h1 class="mainhead">The 3 mistakes of my life</h1>
+            <p class="subwofpara2">by Chetan Bhagat</p>
+            <p class="subwofpara1">Every common man who by his sheer girt and hard work
+                achieves sucess should share his story with the rest for
+                they may find inspiration and strength to go on, in his
+                story. The 'Wings of Fire' is one such autobiography by
+                visionary scientist Dr.APJ Abdul Kalam, who from very
+                humble begining rose to be the President of India. The
+                book is full of insight, personal moments and life experiences
+                of Dr. Kalam. It gives us an understanding on his journey of sucess.</p>
+            <button class="backbutton" onclick="display('sectionHomepage')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div id="sectionHarry">
+        <div class="indbackground">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="subwofimage" />
+            <h1 class="mainhead">Harry Potter</h1>
+            <p class="subwofpara2">by J.K.Rowling</p>
+            <p class="subwofpara1">Every common man who by his sheer girt and hard work
+                achieves sucess should share his story with the rest for
+                they may find inspiration and strength to go on, in his
+                story. The 'Wings of Fire' is one such autobiography by
+                visionary scientist Dr.APJ Abdul Kalam, who from very
+                humble begining rose to be the President of India. The
+                book is full of insight, personal moments and life experiences
+                of Dr. Kalam. It gives us an understanding on his journey of sucess.</p>
+            <button class="backbutton" onclick="display('sectionHomepage')">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

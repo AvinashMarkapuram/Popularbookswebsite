@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.homebackground {
+    background-color: #1b1b1b;
+    padding: 20px;
+    height: 100vh;
+}
+
+.mainhead {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.wofcard {
+    background-color: #e6f6ff;
+    height: 35vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.wofimage {
+    height: 35vh;
+    width: 150px;
+}
+
+.woftextcont {
+    margin: 18px;
+}
+
+.wofhead {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 23px;
+}
+
+.wofpara1 {
+    color: #06070d;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.wofpara2 {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 12px;
+}
+
+.subhead {
+    font-family: "Bree Serif";
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.homecbcard {
+    height: 22vh;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.homecbimage {
+    height: 22vh;
+    width: 100px;
+}
+
+.cbtextcont {
+    margin-left: 10px;
+}
+
+.homecbhead {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.homecbpara1 {
+    color: #e4e7eb;
+    font-family: "Bree Serif";
+    font-size: 12px;
+}
+
+.indbackground {
+    background-color: #1b1b1b;
+    padding: 20px;
+    height: 110vh;
+    text-align: center;
+}
+
+.subwofimage {
+    height: 50vh;
+    width: 200px;
+    margin-bottom: 18px;
+}
+
+.subwofpara1 {
+    color: #e4e7eb;
+    font-family: "Bree Serif";
+    font-size: 14px;
+    text-align: left;
+}
+
+.subwofpara2 {
+    color: #9aa5b1;
+    font-family: "Bree Serif";
+    font-size: 14px;
+}
+
+.backbutton {
+    background-color: yellow;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+}
